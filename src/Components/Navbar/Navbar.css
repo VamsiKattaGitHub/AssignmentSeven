@@ -1,0 +1,43 @@
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.914);
+}
+.nav-link,.nav-brand{
+  color:rgba(244, 231, 231, 0.742) !important;
+  font-size: 13px;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color:white !important;
+}
+.apple-logo{
+  height:16px;
+  width: 16px;
+  margin-bottom: 7px;
+}
+.search-logo{
+  height:16px;
+  width: 16px;
+}
+.suitcase{
+  height: 22px;
+}
+.mainContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link.dropdown-toggle::after {
+  display: none; 
+}
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown-item{
+  color: white;
+}
+.apple-logo2{
+  height:16px;
+  width: 16px;
+  margin-bottom: 4px;
+}
